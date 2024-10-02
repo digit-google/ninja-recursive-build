@@ -1,0 +1,18 @@
+[submodule "projects/zlib"]
+	path = projects/zlib
+	url = https://github.com/madler/zlib.git
+[submodule "projects/lz4"]
+	path = projects/lz4
+	url = https://github.com/lz4/lz4.git
+[submodule "projects/bzip2"]
+	path = projects/bzip2
+	url = https://github.com/libarchive/bzip2.git
+[submodule "projects/zstd"]
+	path = projects/zstd
+	url = https://github.com/facebook/zstd.git
+[submodule "projects/libjpegturbo"]
+	path = projects/libjpegturbo
+	url = https://github.com/libjpeg-turbo/libjpeg-turbo.git
+[submodule "projects/libpng"]
+	path = projects/libpng
+	url = https://github.com/pnggroup/libpng.git
