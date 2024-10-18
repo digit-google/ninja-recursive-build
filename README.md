@@ -34,7 +34,7 @@ you would with Ninja, e.g. `ninja -j8` or `ninja --jobserver` if your version
 supports it.
 
 Run `tools/jobserver_pool.py ninja <args...>` to setup a jobserver pool and run
-Ninja under it. By default, the pool uses the same number of tokens as your
+Ninja under it. By default, the pool uses the same number of jobs as your
 CPU core count.
 
 Run `tools/jobserver_pool.py -jCOUNT ninja <args...>` to setup
@@ -48,7 +48,8 @@ This trace file follows the Chrome tracing format, so can be uploaded to
 https://ui.perfetto.dev, to https://profiler.firefox.com or in the
 `about:tracing` tab of any Chromium-based browser.
 
-Detailed comparison performances can be performed with the `hyperfine` tool
+Detailed comparison performances can be performed with the
+[`hyperfine`](https://github.com/sharkdp/hyperfine) tool
 using something like:
 
 ```
